@@ -1,0 +1,71 @@
+.App {
+  margin-bottom: 20px;
+}
+
+.cartNavbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: crimson;
+  color: white;
+}
+
+.cartIcon {
+  position: relative;
+}
+
+.cartIcon p {
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  width: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cartIcon svg {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  font-size: 25px;
+}
+
+.clearButton,
+.cartDeleteButton {
+  padding: 10px;
+  border: none;
+  background-color: cadetblue;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.clearButton:hover,
+.cartDeleteButton:hover {
+  opacity: 0.7;
+}
+
+.cartDeleteButton {
+  background-color: red;
+  margin-top: 5px;
+}
+
+.cartSection {
+  text-align: center;
+}
+
+.cartItem {
+  display: flex;
+  margin: 50px 150px;
+  justify-content: space-around;
+}
+
+.cartDetail {
+  text-align: center;
+  /* width: 300px; */
+}
+
+.cartQuantityButton {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
