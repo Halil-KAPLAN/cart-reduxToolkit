@@ -2,7 +2,7 @@
 
 This is an example of a basket I made using Redux Toolkit.
 
-Explore the live demo: https://
+Explore the live demo: https://cart-reduxtoolkit-5786.netlify.app
 
 ## Tech Stack
 
